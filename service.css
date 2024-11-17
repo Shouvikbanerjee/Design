@@ -1,0 +1,23 @@
+body{
+    background-color: azure;
+}
+#h9{
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+#ab3{
+    padding:40px;
+}
+#p1{
+    font-size: 45px;
+    color:rgb(55, 117, 96);
+    text-align: center;
+}
+
+@media screen and (max-width:786px) {
+    #p1{
+        font-size: 35px;
+    }
+}

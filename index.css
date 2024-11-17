@@ -1,0 +1,260 @@
+.m1{
+    padding-left: 25px;
+}
+.m11{
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(81, 84, 84);
+}
+.m2{
+    padding-left:300px;
+}
+.m3{
+    padding-left: 80px;
+}
+#Con{
+    padding-top: 20px;
+}
+.con1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(234, 249, 250);
+}
+
+/* card css */
+#d{
+    background: aliceblue;
+  }
+  #d1{
+   height:250px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   padding-top: 20px;
+  }
+  .d01{
+   height:210px;
+   width:180px;
+   margin: 3px;
+   padding:20px;
+   background-color: rgb(253, 255, 255);
+   cursor: pointer;
+  }
+  .d02{
+   height:210px;
+   width:180px;
+   margin: 3px;
+   padding:20px;
+   background-color: rgb(255, 255, 255);
+   cursor: pointer;
+  }
+  .d03{
+   height:210px;
+   width:180px;
+   margin: 3px;
+   padding:20px;
+   background-color: rgb(255, 255, 255);
+   cursor: pointer;
+  }
+  .d04{
+   height:210px;
+   width:180px;
+   margin: 3px;
+   padding:20px;
+   background-color: rgb(255, 255, 255);
+   cursor: pointer;
+  }
+  #d2 .d01:hover{
+   background: rgb(255, 195, 43);
+  }
+  #d2 .d02:hover{
+   background: rgb(255, 195, 43);
+  }
+  #d2 .d03:hover{
+   background: rgb(255, 195, 43);
+  }
+  #d2 .d04:hover{
+   background: rgb(255, 195, 43);
+  }
+  #i1{
+   font-size: 30px;
+  }
+  .h8{
+    font-size: 20px;
+  }
+
+  /* about us css*/
+#ab1{
+    padding-top: 50px;
+    padding-left:70px;
+    padding-right:70px;
+}
+.ab1{
+    padding-top: 60px;
+    padding-left:30px;
+    padding-right:30px;
+}
+.ab2{
+    padding-top: 30px;
+    padding-left:120px;
+    padding-right:30px;
+}
+
+/* technician css */
+#ab3{
+    padding:50px;
+}
+#p11{
+    font-size: 45px;
+    color:rgb(55, 117, 96);
+    text-align: center;
+    font-family: cursive;
+}
+.p22{
+    padding: 60px;
+    border-radius: 80%;
+}
+.p22:hover{
+    background-color: rgb(160, 228, 228);
+}
+.p33{
+   text-align: center;
+}
+.p44{
+    border-radius: 60%;
+}
+.p55{
+    padding-left: 4px;
+}
+.p55:hover{
+   color:azure;
+}
+
+/* mission css */
+#ab2{
+    padding-top: 30px;
+    padding-left:70px;
+    padding-right:70px;
+}
+.ab3{
+    padding-top: 10px;
+    padding-left:30px;
+    padding-right:30px;
+}
+.ab4{
+    padding-top: 30px;
+    padding-left:120px;
+}
+
+/* service css */
+#h9{
+    padding-top: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+#ab3{
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+}
+
+/* Details css */
+#ab4{
+    padding-top:5px;
+    padding-left: 60px;
+    padding-right:60px;
+    padding-bottom: 10px;
+}
+
+/* grid image */
+#ab5{
+    padding-top:20px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 10px;
+
+}
+
+@media screen and (max-width:786px) {
+    .m1{
+        padding-left: 10px;
+    }
+    .m2{
+        padding-left: 0px;
+    }
+    .con1{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+/* card css */
+    #d1{
+        height: 1000px;
+       }
+       .d01{
+        margin: 3px;
+        padding:20px;
+        height:160px;
+        width:250px;
+       }
+       .d02{
+        margin: 3px;
+        padding:20px;
+        height:145px;
+        width:250px;
+       }
+       .d03{
+        margin: 3px;
+        padding:20px;
+        height:145px;
+        width:250px;
+       }
+       .d04{
+        margin: 3px;
+        padding:20px;
+        height:175px;
+        width:250px;
+       }
+
+     /* about us css*/    
+    #ab1{
+        padding: 0px;
+    }
+    .ab1{
+        padding-left:10px;
+        padding-right: 10px;
+    }
+    .ab2{
+        padding-left:10px;
+        padding-right: 10px;
+    }
+
+    /* technician css */
+    #ab3{
+        padding:20px;
+    }
+    .p22{
+        /* padding: 60px; */
+        border-radius: 90%;
+    }
+    /* mission css */
+    #ab2{
+        padding: 0px;
+    }
+    .ab3{
+        padding: 0px;
+    } 
+    .ab4{
+        padding-left:10px;
+        padding-right: 10px;
+    }
+
+    /* grid image */
+    #ab5{
+        padding-top:10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;   
+    }   
+}
